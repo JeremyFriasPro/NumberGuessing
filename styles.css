@@ -1,0 +1,44 @@
+:root {
+	--dark: #222;
+	--light: #eee;
+}
+
+* {
+	font-family: "Poppins", sans-serif;
+	color: var(--dark);
+}
+
+body {
+	background: #eee;
+	padding: 1em;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	color: var(--dark);
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+form input,
+form button {
+	width: 200px;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+form input {
+	color: var(--dark);
+	border: 1px solid var(--dark);
+}
+
+form button {
+	color: var(--light);
+	background: var(--dark);
+	border: none;
+	cursor: pointer;
+}
